@@ -94,6 +94,6 @@
         <OutArgument x:TypeArguments="x:String">[IntB]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The result of the operation is: &quot; + (CInt(IntA) + CInt(IntB)).ToString]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The result of the addition operation is: &quot; + (CInt(IntA) + CInt(IntB)).ToString]" />
   </Sequence>
 </Activity>
